@@ -1,0 +1,80 @@
+.Head{
+    padding:20px;
+    color: #ffffff;
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fab{
+    margin-left: 10px;
+}
+
+/* header */
+header{
+    background-color: rgba(0, 130, 195, 0.9);
+    margin: 0 30px;
+    position: relative;
+}
+header ul{
+    padding: 30px 20px;
+}
+
+header li{
+    margin-right: 40px;
+}
+header ul li a{
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color: #1eb2a6;
+}
+
+header .start {
+    background-color: #0408cb;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.toggle{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    header .start{
+        clip-path: none;
+    }
+    
+    header{
+    margin: 0;
+    background-color: #0d03c5;
+    position: relative;
+} 
+header ul.flexSB{
+    display: none;
+}
+header .toggle{
+    display:block;
+    background-color: #0d03c5;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    top: -20px;
+}
+header .mobile-nav{
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #0d03c5;
+}
+} 
